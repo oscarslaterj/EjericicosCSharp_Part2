@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Capitulo 5\Cap5_Ejercicio4.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -50,7 +51,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Capitulo 5\" />
     <Folder Include="Capitulo 6\" />
     <Folder Include="Capitulo 7\" />
     <Folder Include="Capitulo 8\" />
