@@ -49,5 +49,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Capitulo 5\" />
+    <Folder Include="Capitulo 6\" />
+    <Folder Include="Capitulo 7\" />
+    <Folder Include="Capitulo 8\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
