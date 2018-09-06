@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Capitulo 5\Cap5_Ejercicio4.cs" />
     <Compile Include="Capitulo 5\Cap5_Ejercicio5.cs" />
+    <Compile Include="Capitulo 6\Cap6_Ejercicio1.cs" />
     <Compile Include="Capitulo 7\Cap7_Ejercicio1.cs" />
     <Compile Include="Capitulo 7\Cap7_Ejercicio2.cs" />
     <Compile Include="Capitulo 7\Cap7_Ejercicio5.cs" />
@@ -55,8 +56,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Capitulo 6\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
