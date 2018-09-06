@@ -46,6 +46,7 @@
     <Compile Include="Capitulo 5\Cap5_Ejercicio4.cs" />
     <Compile Include="Capitulo 5\Cap5_Ejercicio5.cs" />
     <Compile Include="Capitulo 7\Cap7_Ejercicio1.cs" />
+    <Compile Include="Capitulo 7\Cap7_Ejercicio2.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
