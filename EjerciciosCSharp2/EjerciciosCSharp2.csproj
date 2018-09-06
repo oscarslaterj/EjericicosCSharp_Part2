@@ -46,6 +46,8 @@
     <Compile Include="Capitulo 5\Cap5_Ejercicio4.cs" />
     <Compile Include="Capitulo 5\Cap5_Ejercicio5.cs" />
     <Compile Include="Capitulo 6\Cap6_Ejercicio1.cs" />
+    <Compile Include="Capitulo 6\Cap6_Ejercicio2.cs" />
+    <Compile Include="Capitulo 6\Cap6_Ejercicio3.cs" />
     <Compile Include="Capitulo 7\Cap7_Ejercicio1.cs" />
     <Compile Include="Capitulo 7\Cap7_Ejercicio2.cs" />
     <Compile Include="Capitulo 7\Cap7_Ejercicio5.cs" />

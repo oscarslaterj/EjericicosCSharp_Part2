@@ -6,13 +6,12 @@ using System.Threading.Tasks;
 
 namespace EjerciciosCSharp2.Capitulo_6
 {
-    public class Cap6_Ejercicio1
+   public class Cap6_Ejercicio2
     {
-        public void Promedio()
+        public void NotaMasBaja()
         {
             int cantEstudiantes = 0, cantSalones = 0, i = 0, j = 0;
-            float suma = 0.0f;
-            float prom = 0.0f;
+            float minima = 100.0f;
             string entrada;
 
             Console.Write("\nDigite la cantidad de salones: ");
@@ -23,7 +22,7 @@ namespace EjerciciosCSharp2.Capitulo_6
 
             for (i = 0; i < cantSalones; i++)
             {
-                Console.Write("\nDigite la cantidad de estudiantes para el salon {0}", i + 1);
+                Console.Write("\nDigite la cantidad de estudiantes para el salon {0}: ", i + 1);
                 entrada = Console.ReadLine();
                 cantEstudiantes = Convert.ToInt32(entrada);
 
@@ -46,12 +45,13 @@ namespace EjerciciosCSharp2.Capitulo_6
             {
                 for (j = 0; j < calif[i].GetLength(0); j++)
                 {
-                    suma += calif[i][j];
-
+                    if (calif[i][j] < minima)
+                    {
+                        minima = calif[i][j];
+                    }
                 }
             }
-            prom = suma / (cantEstudiantes * cantSalones);
-            Console.WriteLine("\nEl promedio es: {0}\n", prom);
+            Console.WriteLine("\nLa nota mas baja es: {0}\n", minima);
         }
     }
 }
